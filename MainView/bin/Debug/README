@@ -1,0 +1,32 @@
+﻿Time Recorder version 1.21 released on 2104-06-09
+================================================================================
+
+INTRODUCTION
+============
+
+This document describes the feature of Time Recorder created by XWH, ZJUGIS.
+
+CONTENTS
+========
+
+- New Features
+- Supported Environment
+
+New Features
+============
+	
+	Configuration
+    -------------
+	- “上周时间”添加各个上周时间统计
+	- “上周时间”时间统计结果添加新的样式显示
+	- “我的打卡”添加个人自定义时间统计
+	- “我的打卡”用户自行输入打卡时间记录
+	
+Supported Environment
+=====================
+
+	Configuration
+    -------------
+	- Windows操作系统
+	- .Net Framework 4.0及以上
+	

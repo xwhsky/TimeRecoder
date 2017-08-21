@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="MainView.MyControls.UcTimeInput"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:subControls="clr-namespace:MainView.SubControls"
+             mc:Ignorable="d" Margin="0">
+
+    <Grid Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <subControls:UcTimeTemplate x:Name="UcTimeInputControl" Grid.Row="0"></subControls:UcTimeTemplate>
+        
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Stretch">
+            <Button Style="{StaticResource AccentedSquareButtonStyle}" Name="BtnOpenRecord" Content="导入" VerticalAlignment="Center" HorizontalAlignment="Stretch" Padding="25,10,25,10" Margin="20,20,20,20"/>
+            <Button Style="{StaticResource AccentedSquareButtonStyle}" Name="BtnSaveRecord" Content="导出" VerticalAlignment="Center" HorizontalAlignment="Stretch" Padding="25,10,25,10" Margin="0,20,20,20"/>
+            <Button Style="{StaticResource AccentedSquareButtonStyle}" Name="BtnStorageTimeRecord" Content="入库" VerticalAlignment="Center" HorizontalAlignment="Stretch" Padding="25,10,25,10" Margin="0,20,20,20" Click="BtnStorageTimeRecord_Click" />
+            <Button Style="{StaticResource AccentedSquareButtonStyle}" Name="BtnCleanRecord" Content="清空" VerticalAlignment="Center" HorizontalAlignment="Stretch" Padding="25,10,25,10" Margin="0,20,20,20"/>
+        </StackPanel>
+
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EngineUtil</name>
+    </assembly>
+    <members>
+        <member name="T:EngineUtil.UserType">
+            <summary>
+            账户类型
+            </summary>
+        </member>
+        <member name="F:EngineUtil.UserType.UnRegister">
+            <summary>
+            未注册（仅限游览）
+            </summary>
+        </member>
+        <member name="F:EngineUtil.UserType.Administrator">
+            <summary>
+            管理员用户（所有操作）
+            </summary>
+        </member>
+        <member name="F:EngineUtil.UserType.Recoder">
+            <summary>
+            记录用户 （仅限添加）
+            </summary>
+        </member>
+        <member name="F:EngineUtil.UserType.Guider">
+            <summary>
+            游客用户（仅限浏览）
+            </summary>
+        </member>
+        <member name="T:EngineUtil.TimeDbUtil">
+            <summary>
+            数据库集成模块
+            </summary>
+        </member>
+        <member name="P:EngineUtil.TimeDbUtil.ConnectString">
+            <summary>
+            连接字符串
+            </summary>
+        </member>
+        <member name="P:EngineUtil.TimeDbUtil.IsOpen">
+            <summary>
+            数据库是否打开
+            </summary>
+        </member>
+        <member name="M:EngineUtil.TimeDbUtil.#ctor(System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="urlPath">ACCESS文件路径</param>
+            <param name="psd">文件密码</param>
+        </member>
+        <member name="M:EngineUtil.TimeDbUtil.Open">
+            <summary>
+            连接数据库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EngineUtil.TimeDbUtil.GetTable(System.String)">
+            <summary>
+            查询表
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EngineUtil.TimeDbUtil.ExecuteSql(System.String[])">
+            <summary>
+            执行sql语句
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EngineUtil.ExcelType">
+            <summary>
+            Excel文档类型
+            </summary>
+        </member>
+        <member name="F:EngineUtil.ExcelType.XlsDocument">
+            <summary>
+            Excel 97-2003工作簿
+            </summary>
+        </member>
+        <member name="F:EngineUtil.ExcelType.XlsxDocument">
+            <summary>
+            Excel 工作簿
+            </summary>
+        </member>
+        <member name="T:EngineUtil.TimeExcelUtil">
+            <summary>
+            Excel操作类
+            </summary>
+        </member>
+        <member name="P:EngineUtil.TimeExcelUtil.ExcelType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EngineUtil.TimeExcelUtil.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="excelPath">Excel文件路径</param>
+        </member>
+        <member name="M:EngineUtil.TimeExcelUtil.#ctor(System.String,EngineUtil.ExcelType)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="excelPath">Excel文件路径</param>
+            <param name="excelType">Excel文件类型</param>
+        </member>
+        <member name="M:EngineUtil.TimeExcelUtil.ReadTimeDataAsDataTable">
+            <summary>
+            读取表格时间记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EngineUtil.TimeExcelUtil.WriteTimeTable(System.Data.DataTable)">
+            <summary>
+            存储时间数据
+            </summary>
+            <param name="table"></param>
+        </member>
+        <member name="M:EngineUtil.TimeExcelUtil.CreateTimeExcel(System.String,System.Data.DataTable,EngineUtil.ExcelType)">
+            <summary>
+            生成关于时间统计的excel表格
+            </summary>
+            <param name="filePath"></param>
+            <param name="table"></param>
+            <param name="type"></param>
+        </member>
+        <member name="M:EngineUtil.TimeExcelUtil.CreateCommonExcel(System.String,System.Data.DataSet,EngineUtil.ExcelType)">
+            <summary>
+            生成普通的EXCEL表格-即将dataset数据拷贝纸excel表中
+            </summary>
+            <param name="filePath"></param>
+            <param name="dataset"></param>
+            <param name="type"></param>
+        </member>
+        <member name="M:EngineUtil.TimeExcelUtil.ReadGraphic">
+            <summary>
+            读取图标信息,有问题
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,17 @@
+E:\MyProjects\TimeRecoder.root\TimeRecoder\EngineUtil\bin\Debug\EngineUtil.dll
+E:\MyProjects\TimeRecoder.root\TimeRecoder\EngineUtil\bin\Debug\EngineUtil.pdb
+E:\MyProjects\TimeRecoder.root\TimeRecoder\EngineUtil\obj\Debug\EngineUtil.dll
+E:\MyProjects\TimeRecoder.root\TimeRecoder\EngineUtil\obj\Debug\EngineUtil.pdb
+E:\MyProjects\TimeRecoder.root\TimeRecoder\EngineUtil\obj\Debug\EngineUtil.csprojResolveAssemblyReference.cache
+E:\MyProjects\TimeRecoder.root\TimeRecoder\EngineUtil\bin\Debug\EngineUtil.XML
+D:\Study\Projects\TimeRecoder.root\TimeRecoder\EngineUtil\bin\Debug\EngineUtil.XML
+D:\Study\Projects\TimeRecoder.root\TimeRecoder\EngineUtil\bin\Debug\EngineUtil.dll
+D:\Study\Projects\TimeRecoder.root\TimeRecoder\EngineUtil\bin\Debug\EngineUtil.pdb
+D:\Study\Projects\TimeRecoder.root\TimeRecoder\EngineUtil\obj\Debug\EngineUtil.csprojResolveAssemblyReference.cache
+D:\Study\Projects\TimeRecoder.root\TimeRecoder\EngineUtil\obj\Debug\EngineUtil.dll
+D:\Study\Projects\TimeRecoder.root\TimeRecoder\EngineUtil\obj\Debug\EngineUtil.pdb
+D:\Study\Projects\TimeRecoder.root - 副本\TimeRecoder\EngineUtil\bin\Debug\EngineUtil.XML
+D:\Study\Projects\TimeRecoder.root - 副本\TimeRecoder\EngineUtil\bin\Debug\EngineUtil.dll
+D:\Study\Projects\TimeRecoder.root - 副本\TimeRecoder\EngineUtil\bin\Debug\EngineUtil.pdb
+D:\Study\Projects\TimeRecoder.root - 副本\TimeRecoder\EngineUtil\obj\Debug\EngineUtil.dll
+D:\Study\Projects\TimeRecoder.root - 副本\TimeRecoder\EngineUtil\obj\Debug\EngineUtil.pdb

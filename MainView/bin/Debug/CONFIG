@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<xml>
+	<setting>
+		<database>${certain ip address}\DBTIMERECORD.accdb</database>
+		<updatefolder>${certain ip address}\UploadVersions</updatefolder>
+		<environmentfile>
+			<file>${certain ip address}\dotNetFx40_Full_x86_x64.exe</file>
+			<file>${certain ip address}\AccessDatabaseEngine.exe</file>
+		</environmentfile>
+	</setting>
+	<appearance>
+			<saveuser>
+				<flag>true</flag>
+				<user>admin</user>
+				<password>123</password>
+			</saveuser>
+			<border>
+				<accent>Blue</accent>
+				<theme>BaseLight</theme>
+			</border>
+	</appearance>
+</xml>
